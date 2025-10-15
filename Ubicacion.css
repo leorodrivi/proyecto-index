@@ -1,0 +1,23 @@
+/* Fondo general */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E6D0B4; /* beige claro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6E7255;
+}
+
+/* Iframe */
+iframe {
+  border-radius: 8px;
+}
