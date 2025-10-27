@@ -1,13 +1,13 @@
-# Manual de Instalación – Proyecto “MiAppWeb”
+# Manual de Instalación – Proyecto “Pet-Health Services”
 1. Introducción
-Este manual describe cómo instalar y ejecutar la aplicación web “MiAppWeb”, desarrollada en Node.js y Express.
+Este manual describe cómo instalar y ejecutar la aplicación web “Pet-Health Services”, desarrollada en React + Vite + Tailwind.
 2. Requisitos del sistema
 Sistema operativo: Windows 10 / Ubuntu 20.04+
 Node.js v18+
 Git
 Navegador web moderno
 3. Preparación del entorno
-Shell
+GitBash
 # Instalar Node.js
 https://nodejs.org/
 
@@ -22,13 +22,13 @@ Shell
 git clone https://github.com/usuario/MiAppWeb.git
 cd MiAppWeb
 5. Instalar dependencias
-Shell
+GitBash
 npm install
 6. Configuración Crear un archivo .env con el siguiente contenido:
 PORT=3000
 DB_URL=mongodb://localhost:27017/miapp
 7. Ejecutar la aplicación
-Shell
+GitBash
 npm start
 8. Verificación Abrir el navegador en http://localhost:3000 y verificar que la página de inicio cargue correctamente.
 9. Problemas comunes
